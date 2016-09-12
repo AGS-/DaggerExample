@@ -26,4 +26,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.0'
     compile 'com.google.dagger:dagger:2.6.1'
     apt "com.google.dagger:dagger-compiler:2.6.1"
+    // We aren't adding the annotation dependency since apparently Dagger >=2.1 doesn't require it
 }

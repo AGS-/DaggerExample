@@ -14,6 +14,9 @@ import dagger.Provides;
 @Module
 public class VehicleModule {
 
+    // Provides needed objects with their dependencies satisfied
+    // @Singleton annotation indicates that only a single object will be instantiated
+
     @Provides @Singleton
     Motor provideMotor() {
         return new Motor();

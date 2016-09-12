@@ -5,6 +5,8 @@ package com.angelgomezsalazar.daggerexample.model;
  */
 public class Motor {
 
+    // Independent class
+
     private int rpm;
 
     public Motor() {

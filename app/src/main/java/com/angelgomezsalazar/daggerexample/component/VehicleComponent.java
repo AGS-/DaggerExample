@@ -14,6 +14,10 @@ import dagger.Component;
 @Component(modules = {VehicleModule.class})
 public interface VehicleComponent {
 
+    // In the @Component annotation we specify which modules are going to be used
+
+    // Here we specify methods for objects we will need and it will give us the object with all its
+    // dependencies satisfied.
     Vehicle provideVehicle();
 
 }

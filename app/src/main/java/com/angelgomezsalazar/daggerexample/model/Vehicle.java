@@ -7,8 +7,11 @@ import javax.inject.Inject;
  */
 public class Vehicle {
 
+    // Dependent class, it's dependent on Motor
+
     private Motor motor;
 
+    // @Inject annotation request a dependency, in this case Motor
     @Inject
     public Vehicle (Motor motor) {
         this.motor = motor;
